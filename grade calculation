@@ -1,0 +1,30 @@
+include<iostream>
+using namespace std;
+int main(){
+	int a,b,c,d,x;
+	cout<<"Enter first subject marks:";
+	cin>>a;
+	cout<<"Enter second subject marks:";
+	cin>>b;
+	cout<<"Enter third subject marks:";
+	cin>>c;
+	cout<<"Enter fourth subject marks:";
+	cin>>d;
+	x=a+c+b+d/4;
+	if(x>=75){
+		cout<<"Grade:Distinction";
+	}
+
+	else if(x>=60 &&x<75){
+		cout<<"Grade:First Division";
+	}
+	else if(x>=50 &&x<60){
+		cout<<"Grade:second Division";
+	}
+	else if(x>=40 &&x<50){
+		cout<<"Grade:third Division";
+	}
+	else{
+		cout<<"fail";
+	}
+}
